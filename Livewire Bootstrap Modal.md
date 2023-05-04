@@ -2,6 +2,22 @@
 
 Livewire Bootstrap Modal is a component that provides you with a modal that supports multiple child modals while maintaining state.
 
+## Installation
+
+To get started, require the package via Composer:
+
+```shell
+composer require venussoft/livewire-bootstrap-modal
+```
+
+Next you will need to publish the required scripts with the following command:
+
+```shell
+php artisan vendor:publish --tag=livewire-bootstrap-modal:scripts --force
+```
+
+**Important:** When updating to a newer version of this package make sure to run the command again with the `--force` flag.
+
 ## Livewire directive
 
 Add the Livewire directive `@livewire('livewire-bootstrap-modal')` and also the Javascript to your template.
